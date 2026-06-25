@@ -1,0 +1,21 @@
+{
+  "name": "TASHINDU-MD",
+  "description": "TASHINDU-MD WhatsApp bot made by WTS official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","TASHINDU-MD","WTS-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the TASHINDU-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
